@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的博客</title>
+    <link rel="stylesheet" href="../../public/home/css/normalize.css">
+    <link rel="stylesheet" href="../../public/home/css/fonts.css">
+    <link rel="stylesheet" href="../../public/home/css/base.css">
+    <link rel="stylesheet" href="../../public/home/css/main.css">
+</head>
+<body>
+    <div class="viewport">
+        <!-- 头部 -->
+        {{include './header.html'}}
+        <!-- 主体 -->
+        <div class="body">
+          <!-- 留坑 -->
+          {{block 'input'}}{{/block}}
+        </div>
+        <!-- 底部 -->
+        {{include './footer.html'}}
+    </div>
+</body>
+</html>
